@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "reejs packit node -d",
+    "build": "reejs packit node",
+    "start": "node packit/index.js"
+  },
+  "dependencies": {
+    "preact-render-to-string": "*",
+    "hono": "*",
+    "react": "*",
+    "preact": "*",
+    "react-dom": "*",
+    "@hono/node-server": "*",
+    "@twind/core": "*",
+    "@twind/with-react": "*",
+    "@twind/preset-autoprefix": "*",
+    "@reejs/imports": "*",
+    "@reejs/utils": "*",
+    "@twind/preset-tailwind": "*",
+    "@reejs/server": "*",
+    "@reejs/react": "*"
+  },
+  "devDependencies": {
+    "reejs": "0.16.1"
+  },
+  "packageManager": "npm"
+}

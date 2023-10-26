@@ -1,0 +1,32 @@
+{
+  "imports": {
+    "@reejs/server": "https://esm.sh/@reejs/server@0.16.1",
+    "@reejs/utils/log.js": "https://esm.sh/@reejs/utils@1.7.1/log.js",
+    "@reejs/react/app.jsx": "https://esm.sh/@reejs/react@0.16.1/app.jsx",
+    "@reejs/imports/debug.js": "https://esm.sh/@reejs/imports@2.8.1/debug.js",
+    "react": "https://esm.sh/preact@10.17.1/compat",
+    "react-dom": "https://esm.sh/preact@10.17.1/compat",
+    "preact": "https://esm.sh/preact@10.17.1",
+    "preact/debug": "https://esm.sh/preact@10.17.1/debug",
+    "preact-render-to-string": "https://esm.sh/preact-render-to-string@6.2.1?external=preact",
+    "@twind/core": "https://cdn.jsdelivr.net/npm/@twind/core/+esm",
+    "@twind/preset-autoprefix": "https://cdn.jsdelivr.net/npm/@twind/preset-autoprefix/+esm",
+    "@twind/preset-tailwind": "https://cdn.jsdelivr.net/npm/@twind/preset-tailwind/+esm",
+    "@twind/with-react": "https://cdn.jsdelivr.net/npm/@twind/with-react/+esm",
+    "@twind/with-react/inline": "https://cdn.jsdelivr.net/npm/@twind/with-react/inline/+esm",
+    "hono": "https://esm.sh/v132/hono@3.6.3",
+    "hono/compress": "https://esm.sh/v132/hono@3.6.3/compress",
+    "@hono/node-server": "https://esm.sh/v132/@hono/node-server@1.1.1",
+    "@hono/node-server/serve-static": "https://esm.sh/v132/@hono/node-server@1.1.1/serve-static"
+  },
+  "browserImports": {
+    "react": "https://esm.sh/preact@10.17.1/compat?bundle=",
+    "react-dom": "https://esm.sh/preact@10.17.1/compat?bundle=",
+    "preact/debug": "https://esm.sh/preact@10.17.1?bundle=",
+    "@twind/core": "https://cdn.jsdelivr.net/npm/@twind/core/+esm",
+    "@twind/preset-autoprefix": "https://cdn.jsdelivr.net/npm/@twind/preset-autoprefix/+esm",
+    "@twind/preset-tailwind": "https://cdn.jsdelivr.net/npm/@twind/preset-tailwind/+esm",
+    "@twind/with-react": "https://cdn.jsdelivr.net/npm/@twind/with-react/+esm",
+    "@twind/with-react/inline": "https://cdn.jsdelivr.net/npm/@twind/with-react/inline/+esm"
+  }
+}
