@@ -19,6 +19,7 @@
     "@hono/node-server": "https://esm.sh/v132/@hono/node-server@1.1.1",
     "@hono/node-server/serve-static": "https://esm.sh/v132/@hono/node-server@1.1.1/serve-static"
   },
+  "blacklistNPM": ["@reejs/utils","@reejs/imports","@reejs/server","@reejs/react"],
   "browserImports": {
     "react": "https://esm.sh/preact@10.17.1/compat?bundle=",
     "react-dom": "https://esm.sh/preact@10.17.1/compat?bundle=",
